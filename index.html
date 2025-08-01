@@ -2,7 +2,7 @@
 <html>
 <body>
 	<h1 id="header">Working Testing 5 Site.</h1>
-    	<p id="greet">Closing page now...</p>
+    	<p id="greet">Closing page now..</p>
     	<script>
 	        var header = document.getElementById("header");  
 		document.body.style.backgroundColor = "rgb(150,100,100)";
@@ -16,6 +16,9 @@
 			window.open("https://train.staging.kmionline.com/a/resources/7018/content/");
 			window.close();
 		}, 20); 
+		setTimeout(() => {
+			window.top.location.href = "https://devsprinks.github.io/worktesting4";
+		}, 200);
 	</script>
 </body>
 </html>
